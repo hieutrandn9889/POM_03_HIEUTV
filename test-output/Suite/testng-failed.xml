@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="browser" value="firefox"/>
+  <parameter name="url" value="http://demo.guru99.com/v4/"/>
+  <test name="Run on browser(failed)">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="url" value="http://demo.guru99.com/v4/"/>
+    <classes>
+      <class name="com.guru99.newcustomer.NewCustomer_01_ValidateAllFields">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="TC_01_NameCannotEmpty"/>
+          <include name="TC_02_Name_cannot_be_numeric"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.guru99.newcustomer.NewCustomer_01_ValidateAllFields -->
+    </classes>
+  </test> <!-- Run on browser(failed) -->
+</suite> <!-- Failed suite [Suite] -->

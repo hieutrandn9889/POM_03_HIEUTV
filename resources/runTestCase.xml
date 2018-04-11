@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <!-- test name="Test">
+    <classes>
+      <class name="com.zingpoll.register.Register_01_RegisterToZingPollSite"/>
+    </classes>
+  </test--> <!-- Test -->
+  
+  <test name="Run on browser">
+  	<parameter name="browser" value="firefox"/>
+  	<parameter name="url" value="http://demo.guru99.com/v4/"/>
+    <classes>
+      <class name="com.guru99.newcustomer.NewCustomer_01_ValidateAllFields"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <!--test name="Run on browser">
+  	<parameter name="browser" value="firefox"/>
+  	<parameter name="url" value="http://demo.guru99.com/v4/"/>
+    <classes>
+      <class name="com.guru99.editcustomer.EditCustomer_01_ValidateAllFields"/>
+    </classes>
+  </test--> <!-- Test -->
+  
+   <!-- test name="Run on browser">
+  	<parameter name="browser" value="firefox"/>
+  	<parameter name="url" value="http://demo.guru99.com/v4/"/>
+    <classes>
+      <class name="com.guru99.payment.function.Payment_Function"/>
+    </classes>
+  </test--> <!-- Test -->
+  
+  <!-- test name="Run on chrome">
+  	<parameter name="browser" value="chrome1"/>
+  	<parameter name="url" value="http://demo.guru99.com/v4/"/>
+    <classes>
+      <class name="com.guru99.newcustomer.NewCustomer_01_ValidateAllFields"/>
+    </classes>
+  </test --> <!-- Test -->
+  
+  <!-- test name="Run on ie">
+  	<parameter name="browser" value="ie1"/>
+  	<parameter name="url" value="http://demo.guru99.com/v4/"/>
+    <classes>
+      <class name="com.guru99.newcustomer.NewCustomer_01_ValidateAllFields"/>
+    </classes>
+  </test --> <!-- Test -->
+  
+
+</suite> <!-- Suite -->
